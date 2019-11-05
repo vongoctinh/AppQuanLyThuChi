@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="16dp"
+    android:orientation="vertical">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Tên thu nhập"
+            android:id="@+id/edt_tenthunhap"/>
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Ngày thu"
+            android:id="@+id/edt_ngaythu"
+            android:inputType="datetime"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Số tiền"
+            android:inputType="number"
+            android:id="@+id/edt_sotien"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_margin="10dp">
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Lưu"
+            android:id="@+id/btn_Luu"/>
+        <Button
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="Làm mới"
+        android:id="@+id/btn_lammoi"/>
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Đóng"
+            android:id="@+id/btn_dong"/>
+
+    </LinearLayout>
+
+</LinearLayout>

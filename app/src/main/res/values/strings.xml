@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">AppQuanLyThuChi</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">Võ Ngọc Tính</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="bacham1">Trang Chủ</string>
+    <string name="bacham2"> Cá Nhân</string>
+    <string name="backNav">back</string>
+
+
+    <string name="thu">Khoản Thu</string>
+    <string name="chi">Khoản Chi</string>
+    <string name="thongke">Thống Kê</string>
+    <string name="gioithieu">Giới Thiệu</string>
+    <string name="thoat">Thoát</string>
+</resources>

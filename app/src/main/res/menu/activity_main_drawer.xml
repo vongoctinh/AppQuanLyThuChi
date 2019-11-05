@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/btn_Thu"
+            android:icon="@drawable/chithu"
+            android:title="@string/thu" />
+        <item
+            android:id="@+id/btn_Chi"
+            android:icon="@drawable/chithu"
+            android:title="@string/chi" />
+        <item
+            android:id="@+id/btn_ThongKe"
+            android:icon="@drawable/thongke"
+            android:title="@string/thongke" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/btn_Gioithieu"
+                android:icon="@drawable/giothieu"
+                android:title="@string/gioithieu" />
+            <item
+                android:id="@+id/btn_Thoat"
+                android:icon="@drawable/thoat"
+                android:title="@string/thoat" />
+        </menu>
+    </item>
+
+</menu>

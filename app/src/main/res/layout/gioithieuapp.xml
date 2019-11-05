@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="16dp"
+    android:layout_gravity="center"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="22dp"
+        android:text="Tên ứng dụng: Quản lý thu chi cá nhân"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="22dp"
+        android:text="Ngày tạo: 10/8/109"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Kích thướt ứng dụng 2.5M"
+        android:paddingBottom="20dp"
+        android:textSize="22dp"/>
+
+<TextView
+    android:layout_marginTop="50dp"
+    android:gravity="center"
+    android:textSize="28dp"
+    android:layout_marginBottom="25dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Ứng dụng được tạo và phát triển bởi Võ Ngọc Tính"/>
+</LinearLayout>

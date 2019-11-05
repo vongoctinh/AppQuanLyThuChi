@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_weight="10"
+    android:layout_width="match_parent"
+    android:layout_margin="16dp"
+    android:background="#fff"
+    android:layout_height="100dp"
+    android:orientation="horizontal"
+    >
+<LinearLayout
+    android:layout_weight="8"
+    android:padding="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_weight="8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+<TextView
+    android:layout_weight="5"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textSize="24dp"
+    android:text="200000"
+    android:gravity="center"
+    android:textColor="#FF0000"
+    android:id="@+id/View_sotien"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:gravity="center"
+            android:layout_height="match_parent"
+            android:textSize="24dp"
+            android:textColor="#000000"
+            android:text="Đồng"/>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/View_tenthu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="dsjvsdfvscj"
+        android:textColor="#FFE600"
+        android:textSize="17dp" />
+    <TextView
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textSize="17dp"
+        android:text="28/7/2019"
+        android:textColor="#000000"
+        android:id="@+id/View_ngayThu"/>
+</LinearLayout>
+    <ImageView
+        android:layout_marginTop="25dp"
+        android:layout_marginBottom="25dp"
+        android:layout_weight="1"
+        android:id="@+id/Chinhsua"
+        android:src="@drawable/edit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <ImageView
+        android:layout_marginTop="25dp"
+        android:layout_marginBottom="25dp"
+        android:layout_weight="1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/xoa"
+        android:id="@+id/Xoa"/>
+</LinearLayout>
